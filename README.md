@@ -1,3 +1,19 @@
+# MHK Blog
+
+This is a simple blog platform built with next.js, typescript, mongoDB, chakra UI and react.
+
+- People can sign up or login into their account
+- Users can view their profile, edit their account and view history.
+- Blogs can be created, deleted, updated and read.
+- Blogs are written in markdown
+- Users can write comments
+- Styling and design with chakra ui
+
+There is an env.example file. 
+Add a .env file:
+- Mongo Uri = Add your mongodb connection string
+- Base Url = Add Your base Url | default http://localhost:3000
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
