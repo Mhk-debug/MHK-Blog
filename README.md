@@ -9,6 +9,8 @@ This is a simple blog platform built with next.js, typescript, mongoDB, chakra U
 - Users can write comments
 - Styling and design with chakra ui
 
+## ENV
+
 There is an env.example file. 
 Add a .env file:
 - Mongo Uri = Add your mongodb connection string
