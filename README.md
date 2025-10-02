@@ -9,18 +9,20 @@ This is a simple blog platform built with next.js, typescript, mongoDB, chakra U
 - Users can write comments
 - Styling and design with chakra ui
 
-## ENV
-
-There is an env.example file. 
-Add a .env file:
-- Mongo Uri = Add your mongodb connection string
-- Base Url = Add Your base Url | default http://localhost:3000
-
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+Install the dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -32,7 +34,14 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+There is an env.example file. 
+Add a .env file:
+- Mongo Uri = Add your mongodb connection string
+- Base Url = Add Your base Url | default http://localhost:3000
+
+
+
+Open [The Base URL you added](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
